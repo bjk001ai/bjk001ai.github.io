@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Jekyll를 이용하여 10분만에 만들기"
 date:   2026-05-17 01:39:11 +0900
 categories: jekyll update
 ---
