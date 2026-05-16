@@ -4,13 +4,32 @@ title:  "Jekyll를 이용하여 10분만에 만들기"
 date:   2026-05-17 01:39:11 +0900
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+1. GitHub가입
+2. Ruby 설치 (Windows)
+    - rubyinstaller.org/downloads 접속
+    - Ruby+Devkit 다운 (rubyinstaller-devkit-4.0.3-1-x64)
+    - 설치 중 마지막에 ridk install 창이 뜨면 Enter 누르기
+    - 설치 완료 후 터미널(cmd)에서 확인 ruby -v
+    - gem install jekyll bundler
+    - jekyll -v
+    - jekyll new my-blog
+    - cd my-blog
+    - bundle exec jekyll serve
+3. GitHub 새로운 repository 생성
+    - bjk001ai.github.io
+4. my-blog 를 push
+    {% highlight ruby %}
+    git init
+    git remote add origin https://github.com/bjk001ai/bjk001ai.github.io.git
+    git add .
+    git commit -m "첫 블로그 시작"
+    git push -u origin master
+    {% endhighlight %}
+5. GitHub Pages 활성화
+    github.com/bjk001ai/bjk001ai.github.io 접속
+    상단 Settings 탭 클릭
+    왼쪽 메뉴에서 Pages 클릭
+    Branch 를 master 로 선택 → Save
 
 Jekyll also offers powerful support for code snippets:
 
