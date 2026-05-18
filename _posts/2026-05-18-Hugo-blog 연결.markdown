@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Hugo-blog 연결"
+date: 2026-05-18
+categories: blog
+---
+
+## Hugo-blog 연결
+
+[Hugo-blog](https://bjk001ai.github.io/Hugo-blog/)
