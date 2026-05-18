@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Dev.log 연결"
+date: 2026-05-18
+categories: JavaScript
+---
+
+## Dev.log 연결
+
+https://bjk001ai.github.io/my_project/index.html
