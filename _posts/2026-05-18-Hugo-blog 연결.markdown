@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Hugo-blog 연결"
-date: 2026-05-18
+date: 2026-05-18 16:29:15 +0900
 categories: blog
 ---
 
-## [Hugo-blog 연결] (https://bjk001ai.github.io/hugo-blog/)
+## [Hugo-blog 연결](https://bjk001ai.github.io/hugo-blog/)
 
 # [GitHub Pages] Hugo 만들어보기(Claude AI도움)
 1. Hugo 설치

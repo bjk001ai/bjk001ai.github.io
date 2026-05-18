@@ -1,10 +1,14 @@
 ---
 layout: post
 title: "Dev.log 연결"
-date: 2026-05-18
+date: 2026-05-18 16:26:11 +0900
 categories: blog
 ---
 
-## Dev.log 연결
+## [Dev.log 연결](https://bjk001ai.github.io/my_project/index.html)
 
-[Dev.log](https://bjk001ai.github.io/my_project/index.html)
+# [GitHub Pages] posts.json + vanilla JS 만들어보기(Cursor AI도움)
+1. GitHub 새로운 repository 생성
+2. (AI한테 부탁) posts.json에 카테고리를 만들면됨.
+3. .js는 자동생성해줌
+4. 페이지 확인 : https://bjk001ai.github.io/my_project/index.html

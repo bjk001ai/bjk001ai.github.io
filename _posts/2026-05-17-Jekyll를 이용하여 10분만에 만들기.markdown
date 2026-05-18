@@ -2,10 +2,10 @@
 layout: post
 title:  "Jekyll를 이용하여 10분만에 만들기"
 date:   2026-05-17 01:39:11 +0900
-categories: jekyll update
+categories: blog
 ---
 
-## Jekyll(제킬)을 이용하여 10분만에 만들기
+## Jekyll(제킬)을 이용하여 10분만에 만들기(현재 사이트)
 
 1. GitHub가입
 2. Ruby 설치 (Windows)
