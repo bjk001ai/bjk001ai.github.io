@@ -5,6 +5,25 @@ date: 2026-05-18
 categories: blog
 ---
 
-## Hugo-blog 연결
+## [Hugo-blog 연결] (https://bjk001ai.github.io/hugo-blog/)
 
-[Hugo-blog](https://bjk001ai.github.io/hugo-blog/)
+# [GitHub Pages] Hugo 만들어보기(Claude AI도움)
+1. Hugo 설치
+    - winget install Hugo.Hugo.Extended
+    - hugo version
+    - cd D:/project/git
+    - hugo new site hugo-blog
+2. PaperMod 테마 설치
+    - cd hugo-blog
+    - git init
+    - git submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
+    - hugo.toml 열어서 수정
+    - hugo server
+    - http://localhost:1313
+3. GitHub Actions 설정
+    - GitHub에 새 Repository 만들기
+    - hugo-blog/.github/workflows/deploy.yml 만들기
+    - push 후 GitHub Repository → Settings → Pages 로 가서 Source: GitHub Actions 선택
+4. 글작성
+    - content/posts/ 폴더 아래 .md 로 생성
+    - hugo.toml 첫화면에서 메뉴부분 추가
