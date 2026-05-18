@@ -7,7 +7,7 @@ categories: blog
 
 ## [Hugo-blog 연결](https://bjk001ai.github.io/hugo-blog/)
 
-# [GitHub Pages] Hugo 만들어보기(Claude AI도움)
+### [GitHub Pages] Hugo 만들어보기(Claude AI도움)
 1. Hugo 설치
     - winget install Hugo.Hugo.Extended
     - hugo version

@@ -7,7 +7,7 @@ categories: blog
 
 ## [Gatsby-blog 연결](https://bjk001ai.github.io/gatsby-blog/)
 
-# [GitHub Pages] React 만들어보기(Claude AI도움)
+### [GitHub Pages] React 만들어보기(Claude AI도움)
 1. React 기초(무료 학습 ko.react.dev)
     - 컴포넌트 : 레고 블록처럼 UI를 조각으로 나누는 것
     - props : 컴포넌트에 데이터 전달하는 방법
