@@ -7,4 +7,4 @@ categories: blog
 
 ## Gatsby-blog 연결
 
-[Gatsby-blog](https://bjk001ai.github.io/Gatsby-blog/)
+[Gatsby-blog](https://bjk001ai.github.io/gatsby-blog/)

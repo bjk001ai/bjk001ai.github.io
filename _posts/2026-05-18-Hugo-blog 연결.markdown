@@ -7,4 +7,4 @@ categories: blog
 
 ## Hugo-blog 연결
 
-[Hugo-blog](https://bjk001ai.github.io/Hugo-blog/)
+[Hugo-blog](https://bjk001ai.github.io/hugo-blog/)
