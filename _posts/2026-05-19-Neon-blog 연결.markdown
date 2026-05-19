@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Neon-blog 연결"
+date: 2026-05-19 16:26:11 +0900
+categories: blog
+---
+
+## [Node-blog 연결](https://bjk001ai.github.io/node-blog/)
+
+#  Neon DB를 이용한 Blog 만들어보기(Antigravity - Jemini Pro AI도움)
+
+▶ 추천 기술 스택 (풀스택)
+가장 트렌디하고 유지보수가 쉬운 조합입니다.
+
+데이터베이스 (DB): Neon (Serverless PostgreSQL)
+프론트엔드: Next.js (React 기반 프레임워크)
+스타일링: Tailwind CSS (이미지와 같은 깔끔한 카드형 UI 및 반응형 웹을 빠르게 구현)
+ORM (DB 연결 및 관리): Drizzle ORM 또는 Prisma
+마크다운 처리: remark / rehype 또는 MDX (블로그 본문 작성 및 렌더링용)
+배포: Vercel (Next.js와 Neon DB를 가장 쉽게 연동하고 배포할 수 있는 플랫폼)
+
+▶ 백엔드 추천 옵션
+블로그의 규모와 개발 취향에 따라 다음 세 가지 옵션 중 하나를 선택하는 것이 좋습니다.
+
+1. Next.js 자체 API Routes / Server Actions (강력 추천 ▶)
+  - Next.js는 프론트엔드 프레임워크이지만 내부에 자체적인 백엔드(API)를 구축할 수 있는 기능을 제공합니다.
+  - Next.js (App Router) + Tailwind CSS + Drizzle ORM + Neon DB
+  - 장점:
+    - 단일 저장소(Monorepo): 프론트엔드와 백엔드 코드를 하나의 프로젝트에서 관리하므로 개발 속도가 매우 빠릅니다.
+    - 별도의 백엔드 서버를 띄울 필요 없이 Vercel 등에 배포하면 자동으로 Serverless 함수로 변환되어 Neon DB와 연결됩니다.
+    - Neon DB 자체가 Serverless이므로, Next.js의 Edge 환경과 가장 시너지가 좋습니다.
+  - 단점: 백엔드 로직이 매우 크고 복잡해질 경우(마이크로서비스 등)에는 분리하는 것이 나을 수 있지만, 일반적인 블로그 수준에서는 전혀 문제가 되지 않습니다.
+
+2. Node.js + Express (또는 NestJS) (분리형 아키텍처)
+  - 프론트엔드(React/Next.js 등)와 백엔드를 완전히 분리하여 API 서버를 따로 구축하는 방식입니다. (현재 열려있는 폴더 중에 node-blog가 있는 것으로 보아 Node.js 환경에 익숙하실 수 있습니다.)
+  - 장점: 프론트엔드와 백엔드의 책임을 명확히 분리할 수 있습니다. 나중에 모바일 앱 등을 만들 때 같은 API 서버를 재사용하기 좋습니다.
+  - 단점: 관리해야 할 서버 프로젝트가 2개(프론트, 백엔드)가 되며, 인프라 세팅(CORS 설정, 배포 파이프라인 두 개 관리 등)이 번거로워집니다.
+
+3. Hono.js (초경량 Serverless 백엔드)
+  - 요즘 떠오르는 매우 빠르고 가벼운 웹 프레임워크입니다.
+  - 장점: Express보다 훨씬 빠르고 가벼우며, Cloudflare Workers나 Vercel의 Edge Functions에서 돌아가도록 설계되었습니다. Neon의 Serverless 특성과 완벽하게 어울립니다.
+  - 단점: Express나 NestJS에 비해 생태계가 아직 작아 레퍼런스(참고자료)가 상대적으로 적을 수 있습니다.
